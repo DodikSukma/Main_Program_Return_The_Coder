@@ -1,0 +1,44 @@
+* First, we have to understand how the pattern of killing
+people by witches is where the killing has a unique pattern
+and the pattern is actually a pattern of Fibonacci numbers, 
+where Fibonacci numbers are a series of numbers where each number 
+in the sequence is the sum of the two previous numbers. 
+This series usually starts with the numbers 0 and 1. So, we have:
+
+Fibbonacy Number Addition Pattern = 1,2,4,5,7,12,...,n
+
+
+S(1) = 1 
+S(2) = 2 
+S(3) = 4 
+S(n) = S(n-1) + S(n-2) + 1
+
+Where S(n) is the sum of the nth Fibonacci numbers.
+
+by applying Fibbonacy numbers we can 
+find out the number of people killed 
+in the nth year and here I use the iteration 
+concept to find the sum pattern and then 
+iterate again to find the number of 
+iteration patterns based on the value n
+
+* The second step is to understand how the previous programmer's 
+technique is to find out the average population killed by witches 
+where the number of people killed is based on the nth year of the 
+fibbonacy number and n is obtained from the reduction between the 
+year of death - year of birth, here I am trying to create a program 
+that can make the year of death - age of death a parameter n in determining 
+the number of deaths based on the iterative program of the fibbonacy number 
+pattern, I also add that if the result of the reduction < 0 then the number 
+of deaths is not found this is because the fibbonaci number pattern starts from 0.
+
+* The third step after finding the number of deaths based on 
+the sum of the fibbonacy numbers based on n (year of death - age of death)
+My data is stored in an array so this allows me to create a program 
+that can loop through the input.
+
+* The final step is after getting the data that has been 
+stored in the array, I display the data using the pandas 
+library as an aid in displaying the data and performing 
+calculations to find the average value of the data using 
+the formula for the amount of data / amount of data
